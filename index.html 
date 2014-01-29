@@ -12,35 +12,21 @@
     	
     	<section class="container">
         <!-- Header -->
-          <header>
-        		<h1>Shopping List App</h1>
-        		<h3>Let's Get Organized</h3>
-        	</header>
-    	
+        <header>
+      		<h1>Shopping List App</h1>
+      		<h3>Get Organized. Get Done.</h3>
+      	</header>
+        <!-- Instructions -->
+        <div id="newtext">Instructions: Type in an item, hit "Add" or hit the "Enter" button, click the checkoff upon completion, double-click item to remove.</div>
+  	     
         <!-- Main Application -->
-        <input type="text" id="inputItem" name="inputItem" placeholder="item" required>
-	    	
+        <input type="text" id="inputItem" name="inputItem" placeholder="item" autofocus>
         <button>Add</button>
 
         <!-- Added items -->
-
-
-
-
-        <!-- Add Item # -->
-      <!--   <div class="add">
-	    		<input type="checkbox" name="item" value=" "> -->
-	    	<!-- </div> -->
-	    	<!-- Check Off Item # --> 
-        <!-- <div class="checkoff">
-	    		<input type="checkbox" name="item" value=" ">
-	    	</div> -->
-
+        <div id="list"></div>
 
 		  </section>
-
-
-    	
 
     </body>
 </html>  
