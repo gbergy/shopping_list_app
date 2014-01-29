@@ -1,0 +1,46 @@
+<!DOCtype html>
+<html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <title>Shopping List App</title>
+      <link rel="stylesheet" href="css/main.css" type="text/css">
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+      <script type="text/javascript" src="javascript/myscript.js"></script>
+    </head>
+
+    <body>
+    	
+    	<section class="container">
+        <!-- Header -->
+          <header>
+        		<h1>Shopping List App</h1>
+        		<h3>Let's Get Organized</h3>
+        	</header>
+    	
+        <!-- Main Application -->
+        <input type="text" id="inputItem" name="inputItem" placeholder="item" required>
+	    	
+        <button>Add</button>
+
+        <!-- Added items -->
+
+
+
+
+        <!-- Add Item # -->
+      <!--   <div class="add">
+	    		<input type="checkbox" name="item" value=" "> -->
+	    	<!-- </div> -->
+	    	<!-- Check Off Item # --> 
+        <!-- <div class="checkoff">
+	    		<input type="checkbox" name="item" value=" ">
+	    	</div> -->
+
+
+		  </section>
+
+
+    	
+
+    </body>
+</html>  
